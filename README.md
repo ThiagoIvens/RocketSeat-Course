@@ -1,1 +1,1 @@
-Estou usando esse repositório para estudo, onde planejei seguir estudando a trilha de React do Ignite primeiro.
+Estou usando esse repositório para estudo, onde planejei começar seguindo o estudo pela trilha de React (Ignite).
