@@ -1,6 +1,7 @@
 ### CHAPTER I
 ## Module I
 > Aula 1
+
 Inicia o projeto com 'yarn init -y', instale o React através do comando 'yarn add react', em seguida instale o React DOM 'yarn add react-dom'. Após ter as ferramentas instaladas crie as pastas src ('mkdir src') e public ('mkdir public').
 Crie o arquivo 'index.html' dentro da pasta public.
 
