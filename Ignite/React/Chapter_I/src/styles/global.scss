@@ -12,3 +12,14 @@ body {
     height: 100vh;
     color: #FA6E47;
 }
+
+.repository-list {
+    padding: 2rem;
+
+    ul {
+        list-style: none;
+        li {
+            padding-block: 2rem;
+        }
+    }
+}
