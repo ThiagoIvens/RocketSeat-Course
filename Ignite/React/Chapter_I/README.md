@@ -54,7 +54,6 @@ adicione esta dependencia ('@babel/preset-react') no babel.config.js.
 Pronto!
 
 Se preferir pode mudar o nome do arquivo 'index.js' para 'index.jsx' que é a nomenclatura assimilada ao react, pois usa html dentro do javascript (porém o browser não entende isso, por isso devemos usar o bundle como arquivo final).
-<<<<<<< HEAD
 
 > Aula 3
 Agora vamos configurar o Webpack!
@@ -75,5 +74,3 @@ module.exports = {
     }
 }
 ```
-=======
->>>>>>> 1dd86dcb58d7016236bf31221fa90ef4f0da5e2c
