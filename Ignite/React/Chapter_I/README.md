@@ -1,6 +1,7 @@
 ### CHAPTER I
 ## Module I
 > Aula 1
+
 Inicia o projeto com 'yarn init -y', instale o React através do comando 'yarn add react', em seguida instale o React DOM 'yarn add react-dom'. Após ter as ferramentas instaladas crie as pastas src ('mkdir src') e public ('mkdir public').
 Crie o arquivo 'index.html' dentro da pasta public.
 
@@ -53,6 +54,7 @@ adicione esta dependencia ('@babel/preset-react') no babel.config.js.
 Pronto!
 
 Se preferir pode mudar o nome do arquivo 'index.js' para 'index.jsx' que é a nomenclatura assimilada ao react, pois usa html dentro do javascript (porém o browser não entende isso, por isso devemos usar o bundle como arquivo final).
+<<<<<<< HEAD
 
 > Aula 3
 Agora vamos configurar o Webpack!
@@ -73,3 +75,5 @@ module.exports = {
     }
 }
 ```
+=======
+>>>>>>> 1dd86dcb58d7016236bf31221fa90ef4f0da5e2c
