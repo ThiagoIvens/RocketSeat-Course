@@ -53,3 +53,23 @@ adicione esta dependencia ('@babel/preset-react') no babel.config.js.
 Pronto!
 
 Se preferir pode mudar o nome do arquivo 'index.js' para 'index.jsx' que é a nomenclatura assimilada ao react, pois usa html dentro do javascript (porém o browser não entende isso, por isso devemos usar o bundle como arquivo final).
+
+> Aula 3
+Agora vamos configurar o Webpack!
+Comece instalando ele 'yarn add webpack webpack/cli webpack-dev-server -D'
+
+Agora crie o arquivo de configurações na raiz do projeto 'webpack.config.js' com o seguinte código:
+```
+const path = require('path')
+
+module.exports = {
+    entry: path.resolve(__dirname, 'src', 'index.jsx'),
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundle.js'
+    },
+    resolve: {
+
+    }
+}
+```
