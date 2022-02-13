@@ -6,20 +6,39 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(24, 45, 83) !important;
-    background: linear-gradient(180deg, rgba(24, 45, 83, 1) 0%, rgba(8, 16, 32, 1) 100%) !important;
+    background: #121212;
     width: 100vw;
-    height: 100vh;
-    color: #FA6E47;
+    height: 100%;
 }
 
 .repository-list {
     padding: 2rem;
 
+    h1 {
+        font: 3em sans-serif;
+        color: crimson;
+    }
+
     ul {
         list-style: none;
+
         li {
             padding-block: 2rem;
+
+            h3 {
+                color: crimson;
+                font-size: 2rem;
+                text-transform: uppercase;
+                margin-bottom: .2rem
+            }
+            p {
+                color: #FFFFFF;
+                margin-bottom: .8rem;
+            }
+            a {
+                color: crimson;
+                text-decoration: none;
+            }
         }
     }
 }

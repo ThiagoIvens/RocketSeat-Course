@@ -1,10 +1,10 @@
 export function RepositoryItem(props) {
     return (
         <li>
-            <b>{props.repository?.name ?? 'Nome desconhecido'}</b>
+            <h3><b>{props.repository?.name ?? 'Nome desconhecido'}</b></h3>
             <p>{props.repository?.description ?? 'Sem descrição'}</p>
 
-            <a href={props.repository?.link ?? '#'}>Acessar Repositorio</a>
+            <a href={props.repository?.html_url ?? '#'}>Acessar Repositorio</a>
         </li>
     );
 }
