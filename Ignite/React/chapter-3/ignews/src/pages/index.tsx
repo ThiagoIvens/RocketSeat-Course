@@ -1,8 +1,13 @@
-import styles from '../styles/index.module.scss'
+import Head from 'next/head'
 
 
 export default function Home() {
-	return ( 
-		<h1 className={styles.title}> Hello World! </h1>
+	return (
+		<>
+			<Head>
+				<title>ig.news</title>
+			</Head>
+			<h1>Hello World! </h1>
+		</>
 	)
 }
